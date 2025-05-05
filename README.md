@@ -1,5 +1,5 @@
 **Instalar vite**
-**-------------**
+
 1. Crear carpeta del proyecto.
 2. Ir a la carpeta del proyecto.
 3. Digitar el siguiente comando:
