@@ -1,8 +1,10 @@
 const name:string = "Zulema";
 
-let hpPoints:number=90;
+let hpPoints:number | string = 90;
 
-let generoFemenino:boolean=true;
+let generoFemenino:boolean = true;
+
+hpPoints="Full";
 
 console.log(name,hpPoints,generoFemenino);
 
