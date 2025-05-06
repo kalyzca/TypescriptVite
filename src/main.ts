@@ -6,7 +6,9 @@ import "./style.css";
 // import  "./Topics/04-functions-with-arguments";
 // import "./Topics/05-homework-types";
 // import "./Topics/06-objects-destructuring";
-import "./Topics/07-arrays-destructuring";
+// import "./Topics/07-arrays-destructuring";
+import "./Topics/08-function-destructuring";
+
 const app =document.querySelector<HTMLDivElement>("#app");
 app!.innerHTML="Hola mundo!";
 console.log(app);
