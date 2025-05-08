@@ -1,4 +1,4 @@
-interface Product {
+export interface Product { //* exportando la interface producto
     description: string;
     price: number;
 }
@@ -19,7 +19,7 @@ const tablet: Product = {
 }
 
 // !Destructuracion de función 1
-function taxCalculation( options: TaxCalculationsOptions): [ number,number ] {
+export function taxCalculation( options: TaxCalculationsOptions): [ number,number ] {
     
     const { tax, products} = options; //para varios argumentos en la función
 
@@ -67,4 +67,5 @@ console.log("Tax",taxTotal);
 console.log("Total de result[0] =",result[0]);
 console.log("Tax de result[1] = ",result[1]); */
 
-export {}
+
+// export { type Product, taxCalculation }
